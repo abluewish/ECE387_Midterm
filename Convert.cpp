@@ -1,13 +1,13 @@
 #include "Arduino.h"
 #include "Convert.h"
 
-Morse::Morse(int pin)
+Convert::Convert(int pin)
 {
   pinMode(pin, OUTPUT);
   _pin = pin;
 }
 
-void Morse::blink()
+void Convert::blink()
 {
   digitalWrite(_pin, HIGH);
   delay(250);
@@ -15,7 +15,7 @@ void Morse::blink()
   delay(250);  
 }
 
-void Morse::func()
+void Convert::func()
 {
   digitalWrite(_pin, HIGH);
   delay(1000);

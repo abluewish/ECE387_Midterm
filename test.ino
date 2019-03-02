@@ -8,6 +8,6 @@ void setup()
 
 void loop()
 {
-  Convert.blink(); Convert.func(); 
+  Convert.blink();
   delay(3000);
 }

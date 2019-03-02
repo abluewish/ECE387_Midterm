@@ -5,7 +5,7 @@
 
 class Convert{
   public:
-    Morse(int pin);
+    Convert(int pin);
     void blink();
     void func();
   private:

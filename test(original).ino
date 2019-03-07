@@ -1,8 +1,9 @@
-#include<Arduino.h>
-#include<Convert.h>
+#include <Arduino.h>
+#include <Convert.h>
 
 int sensorValue = 0;
 int ledPin = 13;
+Convert a=Convert(ledPin);
 
 void setup() {
   // put your setup code here, to run once:
@@ -19,14 +20,8 @@ void loop() {
   delay(2);
   if(sensorValue>300){
     int t1=1;
-    blink(t1);
+    a.blink(20);
+    float b=a.func((float)voltage);
     delay(2);
   }
-}
-
-void blink(int t){
-  digitalWrite(ledPin,HIGH);
-  delay(t);
-  digitalWrite(ledPin,LOW);
-  delay(t);
 }

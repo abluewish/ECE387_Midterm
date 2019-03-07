@@ -7,8 +7,8 @@ To call methods in the library, we can run test examples ended with .ino in Ardu
 The file named sketch_190301a.pde is used to plot EMG muscle signal.
 Some changes still need to be made to add PWM feature.
 
-The demo 1 is presented on Youtube(URL: https://youtu.be/ZSIWmz92eBg).
+The demo 1(without using PWM) is presented on Youtube(URL: https://youtu.be/ZSIWmz92eBg).
 
-The demo 2 will be presented on Youtube soon.(URL:       )
+The demo 2 (using PWM) will be presented on Youtube soon.(URL:       )
 
 

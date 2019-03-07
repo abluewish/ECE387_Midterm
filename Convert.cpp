@@ -17,5 +17,5 @@ void Convert::blink(int t)
 
 float Convert::func(float v)
 {
-    return v/400*255;
+    return 300/v*255;
 }

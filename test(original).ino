@@ -21,7 +21,7 @@ void loop() {
   if(sensorValue>300){
     //a.blink(20);
     float b=a.func((float)voltage);
-    //analogWrite(ledPin, b);
+    //analogWrite(ledPin, (int)b);
     delay(2);
   }
 }

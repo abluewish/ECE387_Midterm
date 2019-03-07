@@ -7,15 +7,15 @@ Convert::Convert(int pin)
   _pin = pin;
 }
 
-void Convert::blink(int t)
+void Convert::blink(int t)  // let LED blink in a period of 2t
 {
   digitalWrite(_pin, HIGH);
-  delay(250);
+  delay(t);
   digitalWrite(_pin, LOW);
-  delay(250);  
+  delay(t);  
 }
 
-float Convert::func(float v)
+float Convert::func(float v) //convert the voltage signal from sensor to the PWM input we will use
 {
     return 300/v*255;
 }

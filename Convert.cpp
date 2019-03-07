@@ -7,7 +7,7 @@ Convert::Convert(int pin)
   _pin = pin;
 }
 
-void Convert::blink()
+void Convert::blink(int t)
 {
   digitalWrite(_pin, HIGH);
   delay(250);

@@ -15,10 +15,7 @@ void Convert::blink()
   delay(250);  
 }
 
-void Convert::func()
+float Convert::func(float v)
 {
-  digitalWrite(_pin, HIGH);
-  delay(1000);
-  digitalWrite(_pin, LOW);
-  delay(250);
+    return v/400*255;
 }

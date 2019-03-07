@@ -6,4 +6,8 @@ To call methods in the library, we can run test examples ended with .ino in Ardu
 
 Some changes still need to be made to add PWM feature.
 
-The demo1 is presented on Youtube(URL: https://youtu.be/ZSIWmz92eBg).
+The demo 1 is presented on Youtube(URL: https://youtu.be/ZSIWmz92eBg).
+
+The demo 2 will be presented on Youtube soon.(URL:       )
+
+

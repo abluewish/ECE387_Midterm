@@ -6,10 +6,12 @@
 class Convert{
   public:
     Convert(int pin);
-    void blink();
-    void func();
+    void blink(int t);
+    float func(float a);
   private:
     int _pin;
+    int t;
+    float a;
 };
 
 #endif

@@ -19,9 +19,9 @@ void loop() {
   int blightness=voltage/2;
   delay(2);
   if(sensorValue>300){
-    int t1=1;
-    a.blink(20);
+    //a.blink(20);
     float b=a.func((float)voltage);
+    //analogWrite(ledPin, b);
     delay(2);
   }
 }

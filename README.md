@@ -4,6 +4,6 @@ The library consists of Convert.h and Convert.cpp. To use this library, you need
 
 To call methods in the library, we can run test examples ended with .ino in Arduino IDE.
 
-Some changes still need to be made.
+Some changes still need to be made to add PWM feature.
 
 The demo1 is presented on Youtube(URL: https://youtu.be/ZSIWmz92eBg).

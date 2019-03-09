@@ -8,6 +8,7 @@ int count=0;
 float base;
 float arr[20];
 float arr2[2]={0.0,0.0};
+int force=1.2; //subject to be changed by the user(from 0 to 2.5) 
 
 void setup() {
   // put your setup code here, to run once:
@@ -40,10 +41,10 @@ void loop() {
   arr2[1]=vol;
   bool lightflag=a.light(count, vol,arr2[0]);
   if(lightflag){
-    int t1=1;
 //    a.blink(20);
-    a.func(vol);
-    delay(100);
+//    for(int i=0; i<vol;i++){
+//      a.blink(20);
+//    }
+    a.func(vol/force);
   }
-  delay(20);
 }

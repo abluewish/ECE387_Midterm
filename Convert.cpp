@@ -18,11 +18,11 @@ void Convert::blink(int t)
 
 void Convert::func(float v)
 {
-    if(v < 0)
-        break;
-    int b = v/5*225;
-    analogWrite(_pin, b);
-    delay(10);
+    if(v >=0){
+        int b = v/5*225;
+        analogWrite(_pin, b);
+        delay(100);
+    }
 }
 
 float Convert::base(float b[]){
